@@ -7,7 +7,12 @@
 </head>
 <body>
     <h1>Chat app using socket</h1>
-    <button id="btn">Click me</button>
+    <input type ="text" id="roomId" placeholder="room id..">
+    <input type="text" placeholder="user id.." id="username">
+    <input type ="text" id="newmsg" placeholder="message..">
+    <button id="btn">Send</button>
+    <ul id="msglist">
+    </ul>
     <script src="/socket.io/socket.io.js"></script>
     <script src="script.js"></script>
 </body>
